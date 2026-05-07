@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/coverFragment">
+
+    <fragment
+        android:id="@+id/coverFragment"
+        android:name="com.example.aksharadeepa.ui.CoverFragment"
+        android:label="Cover"
+        tools:layout="@layout/fragment_cover">
+        <action
+            android:id="@+id/action_coverFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/coverFragment"
+            app:popUpToInclusive="true"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.aksharadeepa.ui.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_subjectFragment"
+            app:destination="@id/subjectFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_performanceFragment"
+            app:destination="@id/performanceFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_gapAnalysisFragment"
+            app:destination="@id/gapAnalysisFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_goalTrackerFragment"
+            app:destination="@id/goalTrackerFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/subjectFragment"
+        android:name="com.example.aksharadeepa.ui.SubjectFragment"
+        android:label="Subject"
+        tools:layout="@layout/fragment_subject">
+        <argument
+            android:name="subjectId"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_subjectFragment_to_chapterFragment"
+            app:destination="@id/chapterFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/chapterFragment"
+        android:name="com.example.aksharadeepa.ui.ChapterFragment"
+        android:label="Chapter"
+        tools:layout="@layout/fragment_chapter">
+        <argument
+            android:name="chapterId"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_chapterFragment_to_quizInstructionFragment"
+            app:destination="@id/quizInstructionFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/quizInstructionFragment"
+        android:name="com.example.aksharadeepa.ui.QuizInstructionFragment"
+        android:label="Quiz Instructions"
+        tools:layout="@layout/fragment_quiz_instruction">
+        <argument
+            android:name="chapterId"
+            app:argType="integer" />
+        <argument
+            android:name="topicId"
+            android:defaultValue="-1"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_quizInstructionFragment_to_quizFragment"
+            app:destination="@id/quizFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/quizFragment"
+        android:name="com.example.aksharadeepa.ui.QuizFragment"
+        android:label="Quiz"
+        tools:layout="@layout/fragment_quiz">
+        <argument
+            android:name="chapterId"
+            app:argType="integer" />
+        <argument
+            android:name="topicId"
+            android:defaultValue="-1"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_quizFragment_to_quizResultFragment"
+            app:destination="@id/quizResultFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/quizResultFragment"
+        android:name="com.example.aksharadeepa.ui.QuizResultFragment"
+        android:label="Quiz Result"
+        tools:layout="@layout/fragment_quiz_result">
+        <argument
+            android:name="chapterId"
+            app:argType="integer" />
+        <argument
+            android:name="topicId"
+            android:defaultValue="-1"
+            app:argType="integer" />
+        <argument
+            android:name="score"
+            app:argType="integer" />
+        <argument
+            android:name="total"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_quizResultFragment_to_reviewFragment"
+            app:destination="@id/reviewFragment" />
+        <action
+            android:id="@+id/action_quizResultFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_quizResultFragment_to_quizInstructionFragment"
+            app:destination="@id/quizInstructionFragment"
+            app:popUpTo="@id/chapterFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/reviewFragment"
+        android:name="com.example.aksharadeepa.ui.ReviewFragment"
+        android:label="Review"
+        tools:layout="@layout/fragment_review">
+        <argument
+            android:name="chapterId"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_reviewFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/performanceFragment"
+        android:name="com.example.aksharadeepa.ui.PerformanceFragment"
+        android:label="Performance"
+        tools:layout="@layout/fragment_performance" />
+
+    <fragment
+        android:id="@+id/gapAnalysisFragment"
+        android:name="com.example.aksharadeepa.ui.GapAnalysisFragment"
+        android:label="Gap Analysis"
+        tools:layout="@layout/fragment_gap_analysis">
+        <action
+            android:id="@+id/action_gapAnalysisFragment_to_quizInstructionFragment"
+            app:destination="@id/quizInstructionFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/goalTrackerFragment"
+        android:name="com.example.aksharadeepa.ui.GoalTrackerFragment"
+        android:label="Goal Tracker"
+        tools:layout="@layout/fragment_goal_tracker" />
+
+    <fragment
+        android:id="@+id/quizHistoryFragment"
+        android:name="com.example.aksharadeepa.ui.QuizHistoryFragment"
+        android:label="Quiz History"
+        tools:layout="@layout/fragment_quiz_history" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.aksharadeepa.ui.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/syllabusFragment"
+        android:name="com.example.aksharadeepa.ui.SyllabusFragment"
+        android:label="Syllabus"
+        tools:layout="@layout/fragment_syllabus">
+        <action
+            android:id="@+id/action_syllabusFragment_to_quizInstructionFragment"
+            app:destination="@id/quizInstructionFragment" />
+    </fragment>
+
+</navigation>
