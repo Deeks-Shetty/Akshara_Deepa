@@ -40,7 +40,7 @@ Many users face difficulty accessing efficient, interactive, and user-friendly d
 
 # 📂 Project Structure
 
-```plaintext
+``plaintext
 Akshara_Deepa/
 │
 ├── app/
@@ -70,3 +70,11 @@ Akshara_Deepa/
 # ⚙️ Installation & Setup
 Clone the Repository
 git clone https://github.com/Deeks-Shetty/Akshara_Deepa.git
+
+## Open in Android Studio
+Open Android Studio
+Click on "Open Project"
+Select the cloned repository folder
+
+Build the Project
+Sync Gradle -> Build Project
