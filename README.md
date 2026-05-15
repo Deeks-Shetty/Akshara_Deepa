@@ -86,38 +86,38 @@ Connect Android device or start emulator
 Click Run ▶ in Android Studio
 
 # Screenshots
-## Splash Screen
+## 1.Splash Screen
 <img width="289" height="582" alt="image" src="https://github.com/user-attachments/assets/fa86869f-96fe-4a23-9f45-e8b1bd1af35e" />
 
-## Welcome Screen
+## 2.Welcome Screen
 <img width="287" height="577" alt="image" src="https://github.com/user-attachments/assets/9ae941eb-1ada-4662-a2e9-ba2fbead8759" />
 
-## Home Dashboard Screen
+## 3.Home Dashboard Screen
 <img width="348" height="708" alt="image" src="https://github.com/user-attachments/assets/ddee2a7e-9eeb-4b60-8bf8-c7c505804f8e" />
 
-## Syllabus Tracker Screen
+## 4.Syllabus Tracker Screen
 <img width="320" height="649" alt="image" src="https://github.com/user-attachments/assets/a7a42989-0653-483d-bec1-a7d0acce659d" />
 <img width="320" height="648" alt="image" src="https://github.com/user-attachments/assets/c55139b5-e4b6-4853-85b3-716cab731216" />
 
-## Quiz Instruction Screen 
+## 5.Quiz Instruction Screen 
 <img width="323" height="654" alt="image" src="https://github.com/user-attachments/assets/f7da9118-9335-480f-8569-7055ec360f02" />
 
-## Engine Screen
+## 6.Engine Screen
 <img width="323" height="653" alt="image" src="https://github.com/user-attachments/assets/c193650f-8670-44ad-9c61-05491995c56e" />
 
-## Quiz Completion Screen
+## 7.Quiz Completion Screen
 <img width="324" height="669" alt="image" src="https://github.com/user-attachments/assets/598359b3-3c63-4e38-88d8-46d37e9a5536" />
 
-## Answer Review Screen
+## 8.Answer Review Screen
 <img width="332" height="669" alt="image" src="https://github.com/user-attachments/assets/d7171783-2edd-4214-8071-b6d34d8dfe18" />
 
-## Strength Map Screen
+## 9.Strength Map Screen
 <img width="331" height="630" alt="image" src="https://github.com/user-attachments/assets/4469ae24-5ba1-4205-9098-d8cd9ad1510a" />
 
-## History Screen 
+## 10.History Screen 
 <img width="295" height="599" alt="image" src="https://github.com/user-attachments/assets/ea1ee60b-f606-41d4-9b4f-174c36d9ff5a" />
 
-## Settings Screen
+## 11.Settings Screen
 <img width="296" height="599" alt="image" src="https://github.com/user-attachments/assets/2ae006cc-538f-4655-9f9c-5e42b81a8f17" />
 
 # Key Highlights
@@ -138,6 +138,7 @@ Click Run ▶ in Android Studio
 
 # 👩‍💻 Author
 Deeksha Shetty
+
 GitHub: https://github.com/Deeks-Shetty
 
 # 📄 License
