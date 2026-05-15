@@ -17,12 +17,24 @@ Many users face difficulty accessing efficient, interactive, and user-friendly d
 - Custom implementation with project-specific logic
 
 # 🛠️ Tech Stack
-## Frontend
-- Material UI Components
-
-## Backend / Services
-- Database and Storage Support
-
-## Tools & Platforms
+# Programming Language
+- Kotlin
+# Development Environment
 - Android Studio
+# UI & Design
+- XML
+- Material Design 3
+# Architecture
+- MVVM Architecture
+# Database
+- Room Database (SQLite)
+# Libraries & Components
+ViewModel
+Coroutines
+WorkManager
+MPAndroidChart
+Build System
+Gradle
+Version Control
+Git & GitHub
   
