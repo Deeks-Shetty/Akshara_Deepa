@@ -14,5 +14,4 @@ Many users face difficulty accessing efficient, interactive, and user-friendly d
 -  Optimized performance
 -  Real-time interaction handling
 -  Clean and maintainable codebase
--
 -   Custom implementation with project-specific logic
