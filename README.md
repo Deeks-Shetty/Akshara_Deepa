@@ -84,4 +84,10 @@ Sync Gradle -> Build Project
 Connect Android device or start emulator
 Click Run ▶ in Android Studio
 
-
+# Key Highlights
+Clean MVVM-based architecture
+Efficient local database management
+Background task automation
+Interactive chart visualization
+Modern Android UI/UX implementation
+Scalable and maintainable codebase
