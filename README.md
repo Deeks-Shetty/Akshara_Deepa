@@ -136,6 +136,10 @@ Click Run ▶ in Android Studio
 - Dark mode enhancements
 - Real-time data synchronization
 
+# 👩‍💻 Author
+Deeksha Shetty
+GitHub: https://github.com/Deeks-Shetty
+
 # 📄 License
 This project is developed for educational and learning purposes.
 
