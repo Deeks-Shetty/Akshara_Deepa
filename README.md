@@ -40,7 +40,7 @@ Many users face difficulty accessing efficient, interactive, and user-friendly d
 
 # 📂 Project Structure
 
-``plaintext
+```plaintext
 Akshara_Deepa/
 │
 ├── app/
@@ -66,6 +66,7 @@ Akshara_Deepa/
 ├── build.gradle
 ├── settings.gradle
 └── README.md
+```
 
 # ⚙️ Installation & Setup
 Clone the Repository
@@ -78,3 +79,9 @@ Select the cloned repository folder
 
 Build the Project
 Sync Gradle -> Build Project
+
+## Run the Application
+Connect Android device or start emulator
+Click Run ▶ in Android Studio
+
+
