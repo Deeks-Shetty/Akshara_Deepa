@@ -3,3 +3,15 @@ Akshara Deepa is an innovative application designed to promote learning, accessi
 
 # Problem Statement
 Many users face difficulty accessing efficient, interactive, and user-friendly digital platforms that provide meaningful functionality with a simple experience. Akshara Deepa aims to bridge this gap by offering an intuitive solution with modern UI design, structured workflows, and responsive functionality.
+
+# 🚀 Features
+
+- ✅ User-friendly and modern interface
+- ✅ Responsive and smooth user experience
+- ✅ Organized modular architecture
+- ✅ Scalable project structure
+- ✅ Interactive components and workflows
+- ✅ Optimized performance
+- ✅ Real-time interaction handling
+- ✅ Clean and maintainable codebase
+- ✅ Custom implementation with project-specific logic
