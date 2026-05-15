@@ -6,12 +6,13 @@ Many users face difficulty accessing efficient, interactive, and user-friendly d
 
 # 🚀 Features
 
-- ✅ User-friendly and modern interface
-- ✅ Responsive and smooth user experience
-- ✅ Organized modular architecture
-- ✅ Scalable project structure
-- ✅ Interactive components and workflows
-- ✅ Optimized performance
-- ✅ Real-time interaction handling
-- ✅ Clean and maintainable codebase
-- ✅ Custom implementation with project-specific logic
+-  User-friendly and modern interface
+-  Responsive and smooth user experience
+-  Organized modular architecture
+-  Scalable project structure
+-  Interactive components and workflows
+-  Optimized performance
+-  Real-time interaction handling
+-  Clean and maintainable codebase
+-
+-   Custom implementation with project-specific logic
