@@ -17,24 +17,53 @@ Many users face difficulty accessing efficient, interactive, and user-friendly d
 - Custom implementation with project-specific logic
 
 # 🛠️ Tech Stack
-# Programming Language
+## Programming Language
 - Kotlin
-# Development Environment
+## Development Environment
 - Android Studio
-# UI & Design
+## UI & Design
 - XML
 - Material Design 3
-# Architecture
+## Architecture
 - MVVM Architecture
-# Database
+## Database
 - Room Database (SQLite)
-# Libraries & Components
+## Libraries & Components
 - ViewModel
 - Coroutines
 - WorkManager
 - MPAndroidChart
-# Build System
+## Build System
 - Gradle
-# Version Control
+## Version Control
 - Git & GitHub
-  
+
+# 📂 Project Structure
+
+```plaintext
+Akshara_Deepa/
+│
+├── app/
+│   ├── src/main/java/
+│   │   ├── activities/
+│   │   ├── fragments/
+│   │   ├── adapters/
+│   │   ├── database/
+│   │   ├── repository/
+│   │   ├── viewmodel/
+│   │   ├── workers/
+│   │   └── utils/
+│   │
+│   ├── res/
+│   │   ├── layout/
+│   │   ├── drawable/
+│   │   ├── values/
+│   │   └── mipmap/
+│   │
+│   └── AndroidManifest.xml
+│
+├── gradle/
+├── build.gradle
+├── settings.gradle
+└── README.md
+
