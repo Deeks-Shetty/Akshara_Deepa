@@ -21,4 +21,8 @@ Many users face difficulty accessing efficient, interactive, and user-friendly d
 - Material UI Components
 
 ## Backend / Services
-- 
+- Database and Storage Support
+
+## Tools & Platforms
+- Android Studio
+  
