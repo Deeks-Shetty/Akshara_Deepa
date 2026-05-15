@@ -85,6 +85,17 @@ Sync Gradle -> Build Project
 Connect Android device or start emulator
 Click Run ▶ in Android Studio
 
+# Screenshots
+## Splash Screen
+<img width="289" height="582" alt="image" src="https://github.com/user-attachments/assets/fa86869f-96fe-4a23-9f45-e8b1bd1af35e" />
+
+## Welcome Screen
+<img width="287" height="577" alt="image" src="https://github.com/user-attachments/assets/9ae941eb-1ada-4662-a2e9-ba2fbead8759" />
+
+## Home Dashboard Screen
+
+## Syllabus Tracker Screen
+
 # Key Highlights
 - Clean MVVM-based architecture
 - Efficient local database management
