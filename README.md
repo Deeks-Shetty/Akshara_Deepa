@@ -17,3 +17,6 @@ Many users face difficulty accessing efficient, interactive, and user-friendly d
 - Custom implementation with project-specific logic
 
 # 🛠️ Tech Stack
+## Frontend
+- Material UI Components
+
