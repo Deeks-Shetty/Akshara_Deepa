@@ -67,3 +67,6 @@ Akshara_Deepa/
 ├── settings.gradle
 └── README.md
 
+# ⚙️ Installation & Setup
+Clone the Repository
+git clone https://github.com/Deeks-Shetty/Akshara_Deepa.git
