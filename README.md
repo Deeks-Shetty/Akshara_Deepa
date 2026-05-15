@@ -121,6 +121,9 @@ Sync Gradle -> Build Project
 ## 11.Settings Screen
 <img width="296" height="599" alt="image" src="https://github.com/user-attachments/assets/2ae006cc-538f-4655-9f9c-5e42b81a8f17" />
 
+# Demo Link
+https://www.mediafire.com/file/648d3fwdkq8v6u4/app-debug.apk/file
+
 # Key Highlights
 - Clean MVVM-based architecture
 - Efficient local database management
