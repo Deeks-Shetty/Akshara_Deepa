@@ -29,12 +29,12 @@ Many users face difficulty accessing efficient, interactive, and user-friendly d
 # Database
 - Room Database (SQLite)
 # Libraries & Components
-ViewModel
-Coroutines
-WorkManager
-MPAndroidChart
-Build System
-Gradle
-Version Control
-Git & GitHub
+- ViewModel
+- Coroutines
+- WorkManager
+- MPAndroidChart
+# Build System
+- Gradle
+# Version Control
+- Git & GitHub
   
