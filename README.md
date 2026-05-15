@@ -74,16 +74,17 @@ Clone the Repository
 git clone https://github.com/Deeks-Shetty/Akshara_Deepa.git
 
 ## Open in Android Studio
-Open Android Studio
-Click on "Open Project"
-Select the cloned repository folder
+1.Open Android Studio
+2.Click on "Open Project"
+3.Select the cloned repository folder
 
 Build the Project
 Sync Gradle -> Build Project
+./gradlew build
 
 ## Run the Application
-Connect Android device or start emulator
-Click Run ▶ in Android Studio
+1.Connect Android device or start emulator
+2.Click Run ▶ in Android Studio
 
 # Screenshots
 ## 1.Splash Screen
