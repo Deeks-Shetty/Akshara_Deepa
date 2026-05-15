@@ -103,4 +103,4 @@ Click Run ▶ in Android Studio
 
 # 📄 License
 This project is developed for educational and learning purposes.
-::contentReference[oaicite:0]{index=0}
+
